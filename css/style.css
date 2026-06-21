@@ -1,0 +1,86 @@
+ h1 {
+            background-color: blue;
+            color: white;
+            text-align: center;
+        }
+
+        p{
+            background-color: brown;
+        }
+
+        /* body{
+            background-color: black;
+            
+
+        } */
+
+.bg-red-h1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 50px;
+    border-style: dashed;
+
+    margin: 50px;
+    /* padding: 10px 30px 60px 100px; */
+}
+
+.bg-blue-h1 {
+    background-color: blue;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+    letter-spacing: 4ch;
+    text-decoration: underline dotted;
+}
+
+#pg-backgrount{
+    background-color: blueviolet;
+}
+/* 
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+} */
+
+.body {
+    background-image: url('../img/background_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pg02-background {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+#box01 {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    position:static;
+    top: 10px;
+    /* right: 20px; */
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#box02 {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: blue;
+}
